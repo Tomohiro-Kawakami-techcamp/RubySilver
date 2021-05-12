@@ -1,3 +1,9 @@
-x = 10
-y = x < 10 ? "A" : "B"
-puts y
+begin
+   puts  1 + "2"
+rescue
+   puts "Error."
+rescue  "TypeError"
+   puts "Type Error."
+ensure
+  puts "Ensure."
+end

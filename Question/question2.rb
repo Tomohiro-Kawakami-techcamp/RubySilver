@@ -1,9 +1,8 @@
-begin
-   puts  1 + "2"
-rescue
-   puts "Error."
-rescue  "TypeError"
-   puts "Type Error."
-ensure
-  puts "Ensure."
+x = 0
+def hoge
+  (1...5).each do |i|
+    x += 1
+  end
+  puts x
 end
+hoge
