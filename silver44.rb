@@ -26,3 +26,9 @@ when 1,2 then; p 1
 when 3,4 then; p 2  #これが実行
 else  p 3
 end
+
+# 条件式に範囲を指定
+case 7
+when 1...5 then; p 1
+when 5...10 then; p 2
+end
