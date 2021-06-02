@@ -18,3 +18,11 @@ def func
   2
 end
 p func
+
+# procの引数
+p1 = Proc.new{|x, y| y}
+p p1.call(1)
+
+# lambdaの引数
+p1 = lambda{|x, y| y}
+# p p1.call(1)  => ArgumentError
