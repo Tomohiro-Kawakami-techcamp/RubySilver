@@ -17,3 +17,9 @@ p f.resume
   next if i == 5
   print i, " "
 end
+
+# redo
+10.times do |i|
+  redo  if  i == 5
+  print i, ""
+end
