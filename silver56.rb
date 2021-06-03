@@ -11,3 +11,9 @@ p f.resume
 p f.resume
 p f.resume
 # p f.resume => FiberError（例外発生）
+
+# next
+10.times do |i|
+  next if i == 5
+  print i, " "
+end
