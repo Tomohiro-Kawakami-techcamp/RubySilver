@@ -30,3 +30,9 @@ qux5 = Qux5.new
 p qux5.v1
 qux5Ext = Qux5Ext.new
 p qux5Ext.v1
+
+# インスタンスからクラス変数を更新
+qux5Ext.v1 = 10
+p qux5.v1
+Qux5.new.v1 = 100
+p qux5.v1
