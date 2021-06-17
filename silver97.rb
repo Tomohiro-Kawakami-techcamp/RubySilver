@@ -14,3 +14,11 @@ p a.real
 p a.imaginary
 p 3.real
 p 3.imaginary
+
+# 複素数から極座標への変換
+p Complex(1, 3).abs
+p Complex(1, 3).arg
+p Complex(1, 3).polar
+
+# ComplexクラスのインスタンスとFloatクラスのインスタンスの四則演算
+p Complex(1, 1) + 0.5
