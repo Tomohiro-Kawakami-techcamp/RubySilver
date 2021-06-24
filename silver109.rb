@@ -22,3 +22,10 @@ p a.values_at(1)
 a = [1, 2, 3]
 p a
 # p a.fetch(4) => IndexError
+
+# 配列の要素を参照する(3)
+a = [1, 2, 3, 4, 5]
+p a
+p a.first
+p a.last
+p a.first(3)
